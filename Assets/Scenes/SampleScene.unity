@@ -245,7 +245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &113151420
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 1
+  m_CameraType: 0
   m_Cameras: []
   m_RendererIndex: 0
   m_VolumeLayerMask:
@@ -1150,8 +1150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1666912092}
   holdPos: {fileID: 1282051537}
-  throwForce: 20
-  pickUpRange: 50
+  throwForce: 50
+  pickUpRange: 100
   gravity: 9.81
 --- !u!64 &655132692
 MeshCollider:
@@ -1845,7 +1845,7 @@ Transform:
   m_GameObject: {fileID: 1282051536}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.18, z: 9.7}
+  m_LocalPosition: {x: 0.56, y: 1.01, z: 4.68}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -2050,7 +2050,7 @@ Transform:
   m_GameObject: {fileID: 1427105471}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -33, z: 0}
+  m_LocalPosition: {x: 0, y: -14.85, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2305,7 +2305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 1666912092}
-  speed: 24
+  speed: 48
   gravity: -9.81
   jumpHeight: 3
   groundCheck: {fileID: 1427105472}
@@ -2782,17 +2782,17 @@ PrefabInstance:
     - target: {fileID: 153002794599336312, guid: 9cf16ad388a7b504b8b7f800fe0cf37e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -81.1
+      value: -85.43
       objectReference: {fileID: 0}
     - target: {fileID: 153002794599336312, guid: 9cf16ad388a7b504b8b7f800fe0cf37e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -28.7
+      value: -10.3
       objectReference: {fileID: 0}
     - target: {fileID: 153002794599336312, guid: 9cf16ad388a7b504b8b7f800fe0cf37e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -79
+      value: -89.87
       objectReference: {fileID: 0}
     - target: {fileID: 153002794599336312, guid: 9cf16ad388a7b504b8b7f800fe0cf37e,
         type: 3}
@@ -2848,6 +2848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1702595269109433424, guid: 9cf16ad388a7b504b8b7f800fe0cf37e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1702595269109433424, guid: 9cf16ad388a7b504b8b7f800fe0cf37e,
         type: 3}
